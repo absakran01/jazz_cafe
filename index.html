@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz Cafe</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header-title">Jazz Cafe</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="container-title">Experience the Best Coffee and Jazz Music</h2>
+        <p class="container-description">At Jazz Cafe, we offer a unique blend of the finest coffee and live jazz music. Come and enjoy a relaxing atmosphere with great drinks and even better music.</p>
+       <br>
+        <div class="content-option">
+            <a href="./menu.html">
+            <img src="./assets/Menue.jpeg" alt="Coffee" class="option-image-right">
+            </a>
+            <div class="content-option-text">
+                <h3 class="menu-title">Our Menu</h3>
+                <p class="menu-description">
+                    Our menu features a variety of coffee drinks, teas, and pastries. We also offer a selection of wines and beers. Check out our menu to see all of our offerings.
+                </p>
+            </div>
+        </div>
+        <div class="content-option">
+            <div class="content-option-text">   
+            <h3 class="music-title">Live Music</h3>
+            <p class="music-description">Every night, we have live jazz music from some of the best musicians in the area. Check out our calendar to see who will be performing next.</p>
+            </div>
+            <a href="./music.html">
+            <img src="./assets/music.jpg" alt="Music" class="option-image-left">
+            </a>    
+        </div>
+            <h3 class="visit-title">Visit Us</h3>
+            <p class="visit-description">Stop by Jazz Cafe today to enjoy great coffee, delicious food, and amazing music. We look forward to seeing you soon!</p>
+        
+        <br>
+    </div>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2025 Jazz Cafe. All rights reserved.</p>
+    </footer>
+</body>
+<!-- make the image enlarge on hover -->
+<script>
+    const images = document.querySelectorAll('.option-image-right, .option-image-left');
+    images.forEach(image => {
+        image.addEventListener('mouseover', () => {
+            image.style.transform = 'scale(1.1)';
+            image.style.transition = 'transform 0.5s';
+        });
+        image.addEventListener('mouseout', () => {
+            image.style.transform = 'scale(1)';
+        });
+    });
+</script>
+</html>

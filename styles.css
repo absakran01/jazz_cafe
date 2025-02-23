@@ -1,0 +1,78 @@
+
+h1{
+    font-size: 4rem;
+}
+
+body {
+    background-image: url("./assets/wallpaper.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6d1; /* Light olive background */
+}
+header {
+    opacity: 0.9;
+    background-color: #556b2f; /* Dark olive */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+.header-title {
+    background-color: #556b2f; /* Dark olive */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.option-image-right {
+    float: right;
+    /* crop it make it 200by200 */
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    /* z-index: -1; */
+}
+
+.option-image-left {
+    float: left;
+    height: 200px;
+    width: 200px;
+    /* z-index: -1; */
+}
+
+.content-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-option-text {
+    text-align: center;
+    padding: 2rem;
+    width: 50%;
+}
+
+.container {
+    color: rgb(255, 238, 211);
+    padding: 2rem;
+    text-align: center;
+}
+p{
+    font-size: 1.2rem;
+    width: 70%;
+    margin: auto;
+}
+footer {
+    opacity: 0.9;
+    background-color: #556b2f; /* Dark olive */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+img{
+    opacity: 1;
+}
